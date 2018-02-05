@@ -37,12 +37,12 @@
   <header id="header">
     <a href="#" class="image avatar"><img src="/images/jean_profile_web.jpg" alt="" /></a>
     <h1><strong>Jean Young Song</strong></h1>
-    <h4 style="color: #C0C0C0">PhD Candidate<br/>
+    <h4>PhD Candidate<br/>
       in <a href="http://www.eecs.umich.edu">EECS</a><br/>
       @ <a href="http://umich.edu">University of Michigan </a>
     </h4>
     <br />
-    <h4 style="color: #C0C0C0">
+    <h4>
       <a href="/Jean,Song,cv,2017.pdf">Curriculum Vitae <i class="icon fa-file-pdf-o"><span class="label">CV</span></i></a><br/>
       <a href="mailto:jyskwon@umich.edu">email <i class="icon fa-envelope-o"><span class="label">Email</span></i></a></h4>
     </h4>
@@ -51,7 +51,7 @@
 
   <!-- Main -->
 <div id="main">
-    <section>
+    <section style="max-width: 48em">
         <header class="major">
         <h2>About</h2>
         <!--p class="post-meta"></p-->
@@ -60,12 +60,12 @@
         <section>
             I am a PhD student in the Department of Electrical Engineering and Computer Science (EECS) at the University of Michigan, Ann Arbor.
             I am advised by <a href="http://web.eecs.umich.edu/~wlasecki/">Prof. Walter S. Lasecki</a> and am a member of <a href="https://web.eecs.umich.edu/~wlasecki/croma.html">CRO+MA Lab</a>.
-            I am currently at KAIST as a visiting student in <a href="https://kixlab.github.io/">KIXLAB</a> working with <a href="https://juhokim.com/">Prof. Juho Kim</a>.<br/>
-            My research interest spans human-computer interaction (HCI), crowdsourcing, machine learning, and digital image processing.
+            I am currently at KAIST as a visiting student in <a href="https://kixlab.github.io/">KIXLAB</a> working with <a href="https://juhokim.com/">Prof. Juho Kim</a>.
+            My research interest spans human-computer interaction (HCI), crowdsourcing, machine learning, and computer vision.
         </section>
     </section>
 
-    <section>
+    <section style="max-width: 48em">
         <header class="major">
             <h2>Publications</h2>
         </header>
@@ -76,7 +76,7 @@
                     <a href="/publications/IUI2018_FourEyes.pdf">Two Tools are Better Than One:
                       Tool Diversity as a Means of Improving Aggregate Crowd Performance.</a>
                       In Proceedings of the ACM International Conference on Intelligent User Interfaces (IUI 2018).
-                      Tokyo, Japan.</li>
+                      Tokyo, Japan. [23% Acceptance Rate]</li>
                   <li> J.Y. Song, R. Fok, F. Yang, K. Wang, A.R. Lundgard, W.S. Lasecki.
                     <a href="/publications/GroupSight2017_ToolDiversity.pdf">Tool Diversity
                       as a Means of Improving Aggregate Crowd Performance on Image Segmentation Tasks.</a>
@@ -87,7 +87,7 @@
                       In Collective Intelligence Conference (CI 2017). New York, NY. </li>
                 </ul>
             </section>
-         </div><br /><br />
+         </div><br />
     </section>
 
     <section>
@@ -95,10 +95,57 @@
         <h2>Projects</h2>
         </header>
         <div class="row">
-            <header>
-                <h2>Crowd-based Image Segmentation</h2>
+            <header style="width: 100%">
+                <h3>Robust 4D Simulation of Rare Events enabled by Human-Augmented Computer Vision</h3>
             </header>
-            <section>
+            <div style="max-width: 36em; float: left">
+                Research in robotics and autonomous vehicles suffers from a lack of realistic training data and environments
+                in which to test new approaches. Rare and unusual events such as traffic accidents occur several orders of
+                magnitude less frequently than is needed to collect large enough training and testing sets, presenting a
+                fundamental bottleneck in the research and deployment of such systems. Thus, we propose to use a crowdsourced
+                human-­in-­the-­loop approach to guide computer vision algorithms to extract measurement information from large
+                video corpora, allowing us to create simulations of scene dynamics for training and testing.
+                <!--ul>
+                <li> J.Y. Song, R. Fok, F. Yang, K. Wang, A.R. Lundgard, W.S. Lasecki.
+                    <a href="https://groupsight.github.io/media/ToolDiversity_GroupSight2017.pdf">Tool Diversity
+                    as a Means of Improving Aggregate Crowd Performance on Image Segmentation Tasks.</a>
+                    In HCOMP Workshop on Human Computation for Image and Video Analysis (GroupSight 2017). Quebec City,
+                    Quebec. 2017. </li>
+                </ul-->
+            </div>
+            <div class="project-image">
+              <img src="/images/projects/2018-TRI.png">
+            </div>
+        </div><br /><br />
+
+        <div class="row">
+            <header style="width: 100%">
+                <h3>Crowdsourcing Emotion, Intention, and Context Annotations from Dialog Videos</h3>
+            </header>
+            <div style="max-width: 36em; float: left">
+                Dialog videos contain rich contextual, emotional, and intentional cues of the characters and their surroundings.
+                In this project, we aim to build a crowdsourcing platform that collects these information from a large dialog video
+                dataset. The collection and aggregation process can be challenging because the temporal dimension of the dataset
+                has to be considered, and the labels are multi-dimensional and can be highly subjective. We combat these challenges
+                by exploring crowdsourcing techniques to design workflows and answer aggregation methods that efficiently collects
+                multi-dimensional labels and overcome the subjective nature of the collected annotations.
+                <!--ul>
+                <li> J.Y. Song, R. Fok, F. Yang, K. Wang, A.R. Lundgard, W.S. Lasecki.
+                    <a href="https://groupsight.github.io/media/ToolDiversity_GroupSight2017.pdf">Tool Diversity
+                    as a Means of Improving Aggregate Crowd Performance on Image Segmentation Tasks.</a>
+                    In HCOMP Workshop on Human Computation for Image and Video Analysis (GroupSight 2017). Quebec City,
+                    Quebec. 2017. </li>
+                </ul-->
+            </div>
+            <div class="project-image">
+              <img src="/images/projects/2018-suggestbot.png">
+            </div>
+        </div><br /><br />
+        <div class="row">
+            <header style="width: 100%">
+                <h3>Crowd-Assisted Image Segmentation</h3>
+            </header>
+            <div style="max-width: 36em; float: left">
                 In-home robots interact with a wide range of objects on a daily basis, but automatic object segmentation and
                 recognition in visual scenes remain open problems, particularly in scenarios where robots may encounter
                 never-before-seen objects (e.g. when someone purchases a new item for their home or office). We introduce a hybrid
@@ -108,19 +155,22 @@
                 answers from multiple tools produces at least as good as the best performing individual tool even if the gold standard
                 is unknown.
                 <ul>
-                <li> J.Y. Song, R. Fok, F. Yang, K. Wang, A.R. Lundgard, W.S. Lasecki.
-                    <a href="https://groupsight.github.io/media/ToolDiversity_GroupSight2017.pdf">Tool Diversity
-                    as a Means of Improving Aggregate Crowd Performance on Image Segmentation Tasks.</a>
-                    In HCOMP Workshop on Human Computation for Image and Video Analysis (GroupSight 2017). Quebec City,
-                    Quebec. 2017. </li>
+                  <li> J.Y. Song, R. Fok, A. Lundgard, F. Yang, J. Kim, W.S. Lasecki.
+                    <a href="/publications/IUI2018_FourEyes.pdf">Two Tools are Better Than One:
+                      Tool Diversity as a Means of Improving Aggregate Crowd Performance.</a>
+                      In Proceedings of the ACM International Conference on Intelligent User Interfaces (IUI 2018).
+                      Tokyo, Japan.</li>
                 </ul>
-            </section>
-        </div><br /><br />
+            </div>
+            <div class="project-image">
+              <img src="/images/projects/2018-tooldiversity.png">
+            </div>
+        </div><br />
         <div class="row">
-            <header>
-                <h2>Crowd-Assisted Robotics</h2>
+            <header style="width: 100%">
+                <h3>Crowd-Assisted Robotics</h3>
             </header>
-            <section>
+            <div style="max-width: 36em; float: left">
                 We are building crowdsourcing tools to help autonomous robots recognize new contexts or problems in real-time.
                 Our system uses a hybrid intelligent workflow that combines human intelligence from the crowd with automated
                 support in the form of focused tasks (ones that the system is not able to complete on its own) and smart tools
@@ -129,25 +179,28 @@
                 while using human intelligence to both fill in the gaps, and ensure that new objects in a scene do not result
                 in failures to complete an assigned task.
                 <ul>
-                <li> S. Gouravajhala, J.Y. Song, J. Yim, R. Fok, Y. Huang, F. Yang, K. Wang, Y. An, W.S. Lasecki. <a href="https://web.eecs.umich.edu/~wlasecki/pubs/eureca_ci2017.pdf">Towards Hybrid
+                  <li> S. Gouravajhala, J.Y. Song, J. Yim, R. Fok, Y. Huang, F. Yang, K. Wang, Y. An, W.S. Lasecki. <a href="https://web.eecs.umich.edu/~wlasecki/pubs/eureca_ci2017.pdf">Towards Hybrid
                     Intelligence for Robotics.</a> In Collective Intelligence Conference (CI 2017). New York, NY. </li>
                 </ul>
-            </section>
-        </div><br /><br />
+            </div>
+            <div class="project-image">
+              <img src="/images/projects/2017-CI.png">
+            </div>
+        </div><br />
         <div class="row">
-            <header>
-                <h2>Intermodal Non-rigid Image Registration</h2>
+            <header style="width: 100%">
+                <h3>Intermodal Non-rigid Image Registration</h3>
             </header>
-            <section>
+            <div style="max-width: 50em; float: left">
                 I've also collaborated with Prof. (Emeritus) Charles R. Meyer in the Department of Biomedical Engineering and Prof. Jeffrey A. Fessler in EECS.
                 I worked on image registration stuff such as intermodal non-rigid image registration based on mutual information, and 2D-3D projection image registration.<br />
                 <ul>
-                <li> Jean Y. Song and Charles R. Meyer, <a href="Jean_CR_final.pdf">2D-3D Image Registration using Thin-Plate Spline and Volume Rendering</a>,
-                SPIE Medical Imaging 2015, Orlando, Feb. 2015. </li>
-                <li> Jean Y. Song, J. A. Fessler, and C. R. Meyer, <a href="Jean_SPIE_Poster.pdf">Adaptive Filtering on Conditional Mutual Information for
-                Intermodal Non-Rigid Image Registration</a>, IEEE NSS/MIC 2014, Seattle, Nov. 2014. </li>
+                  <li> Jean Y. Song and Charles R. Meyer, <a href="Jean_CR_final.pdf">2D-3D Image Registration using Thin-Plate Spline and Volume Rendering</a>,
+                    SPIE Medical Imaging 2015, Orlando, Feb. 2015. </li>
+                  <li> Jean Y. Song, J. A. Fessler, and C. R. Meyer, <a href="Jean_SPIE_Poster.pdf">Adaptive Filtering on Conditional Mutual Information for
+                  Intermodal Non-Rigid Image Registration</a>, IEEE NSS/MIC 2014, Seattle, Nov. 2014. </li>
                 </ul>
-            </section>
+            </div>
         </div>
     </section>
 </div>

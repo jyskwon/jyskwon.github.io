@@ -65,15 +65,15 @@
 
 	#header {
 		background-image: url('../../images/bg.jpg');
-		background-repeat: no-repeat;
+		background-repeat: repeat-y;
 		background-size: cover;
 		-ms-behavior: url('css/ie/backgroundsize.min.htc');
-		
+
 		h1 {
 			color: $color-accent2-fg-bold;
 		}
 	}
-	
+
 /* Footer */
 
 	#footer {

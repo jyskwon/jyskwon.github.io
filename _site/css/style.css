@@ -939,7 +939,7 @@
 		background-attachment: scroll,								fixed;
 		background-image: url("images/overlay.png"), url("../images/bg.jpg");
 		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
+		background-repeat: repeat,								repeat-y;
 		background-size: auto,								auto 100%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
@@ -1020,7 +1020,7 @@
 
 	#main {
 		margin-left: 20%;
-		max-width: 54em;
+		max-width: 90em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 20%);
 	}
@@ -1262,3 +1262,9 @@
 	body.is-touch .poptrox-popup .closer {
 		opacity: 1.0 !important;
 	}
+
+.project-image img{
+	height: 300px;
+	display: block;
+	margin: auto;
+}
