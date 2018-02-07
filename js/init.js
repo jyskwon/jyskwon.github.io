@@ -86,10 +86,10 @@
 						if (skel.isActive('medium')) {
 
 							$window.off('scroll.strata_parallax');
-							$header.css('background-position', 'top left, center center');
+							$header.css('background-position', 'top left, top left');
 
 						}
-						else {
+						/*else {
 
 							$header.css('background-position', 'left 0px');
 
@@ -98,6 +98,7 @@
 							});
 
 						}
+						*/
 
 					});
 
