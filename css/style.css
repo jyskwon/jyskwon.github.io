@@ -41,18 +41,18 @@
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #a862c1; /*49bf9d*/
+		color: #a862c1; /*4A5CCD*/
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #4A5CCD !important;
 			text-decoration: none;
 		}
 
 	strong, b {
-		color: #787878;
+		color: #000000;
 		font-weight: 400;
 	}
 
@@ -65,7 +65,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #000000;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -218,7 +218,7 @@
 	}
 
 	label {
-		color: #787878;
+		color: #000000;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 400;
@@ -259,7 +259,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #4A5CCD;
 		}
 
 	.select-wrapper {
@@ -362,15 +362,15 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #787878;
-			border-color: #787878;
+			background: #000000;
+			border-color: #000000;
 			color: #fff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			border-color: #4A5CCD;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -744,7 +744,7 @@
 		}
 
 		table th {
-			color: #787878;
+			color: #000000;
 			font-size: 0.9em;
 			font-weight: 400;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -804,7 +804,7 @@
 		background-color: transparent;
 		border-radius: 0.35em;
 		border: solid 3px #efefef;
-		color: #787878 !important;
+		color: #000000 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -822,8 +822,8 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #4A5CCD;
+			color: #4A5CCD !important;
 		}
 
 		input[type="submit"]:active,
@@ -831,8 +831,8 @@
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #4A5CCD;
+			color: #4A5CCD !important;
 		}
 
 		input[type="submit"].icon,
@@ -877,8 +877,8 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #49bf9d;
-			border-color: #49bf9d;
+			background-color: #4A5CCD;
+			border-color: #4A5CCD;
 			color: #ffffff !important;
 		}
 
@@ -1266,4 +1266,8 @@
 	width: 320px;
 	display: block;
 	margin: auto;
+}
+
+li{
+  margin: 20px 0;
 }
