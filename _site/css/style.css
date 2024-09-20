@@ -47,13 +47,13 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4A5CCD !important;
+			color: #FFC300 !important;
 			text-decoration: none;
 		}
 
 	strong, b {
 		color: #000000;
-		font-weight: 400;
+		font-weight: bold;
 	}
 
 	em, i {
